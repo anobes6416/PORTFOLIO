@@ -9,7 +9,7 @@ function Experiences() {
       <SectionTitle title="Experience" />
 
       <div className="flex py-10 gap-10 sm:flex-col">
-        <div className="flex flex-col gap-5 border-l-2 border-[#135e4c82] w-1/3 sm:overflow-flow-scroll sm:w-full sm:flex-row w-n">
+        <div className="flex flex-col gap-10 border-l-2 border-[#135e4c82] w-1/3  sm:flex-row sm:w-full">
           {experiences.map((experience, index) => (
             <div
               onClick={() => {
