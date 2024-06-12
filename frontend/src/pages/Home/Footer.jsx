@@ -8,7 +8,7 @@ function Footer() {
 
         </div>
 
-        <div className="flex flex-col items-center justify-center mt-10">
+        <div className="flex flex-col items-center justify-center mt-10 ">
             <h1 className="text-white">
                 Design and Developed By
             </h1>
