@@ -13,7 +13,9 @@ function Footer() {
                 Design and Developed By
             </h1>
             <h1 className="text-white">
-                <span>Sebona Ifa</span>
+              <span>
+                Sebona Ifa
+              </span>
             </h1>
         </div>
     </div>

@@ -25,3 +25,79 @@
   border-radius: 10px;
 }
 
+i{
+  cursor: pointer;
+}
+i:hover{
+  color: #f5f5f5;
+  font-size: 30px;
+}
+
+/* Loader */
+.s {
+ animation: s 1s infinite;
+}
+
+@keyframes s{
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0.5;
+  }
+}
+
+.i {
+  animation: i 1s infinite;
+ }
+ 
+ @keyframes i{
+   0%{
+     opacity: 0.5;
+   }
+   50%{
+     opacity: 1;
+   }
+   100%{
+     opacity: 0.5;
+   }
+ }
+
+ .n {
+  animation: n 1s infinite;
+ }
+ 
+ @keyframes n{
+   0%{
+     opacity: 0.5;
+   }
+   50%{
+     opacity: 0.5;
+   }
+   100%{
+     opacity: 1;
+   }
+ }
+
+
+.pop-up {
+  animation: pop-up 1s ease-in-out;
+}
+
+@keyframes pop-up {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
